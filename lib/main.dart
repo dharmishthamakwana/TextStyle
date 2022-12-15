@@ -105,3 +105,70 @@ void main()
     ),
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------task2--------------------------------
+  import 'package:flutter/material.dart';
+
+void main()
+{
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SafeArea(
+        child: Scaffold(
+          appBar: AppBar(
+            title: Text(
+              "Rich Text Example",
+            ),
+            centerTitle: true,
+          ),
+          body: Center(
+            child: RichText(
+              text: TextSpan(
+                  children: [
+
+                    TextSpan(
+                      text: "Styling text in Flutter\n",
+                      style: TextStyle(fontSize: 45,color: Colors.brown),
+                    ),
+                    TextSpan(
+                      text: "Styling text in Flutter\n",
+                      style: TextStyle(fontSize: 45,color: Colors.blue),
+                    ),
+                    TextSpan(
+                      text: "Styling text in Flutter\n",
+                      style: TextStyle(fontSize: 45,color: Colors.black38),
+                    ),
+                    TextSpan(
+                      text: "Styling text in Flutter\n\n\n",
+                      style: TextStyle(fontSize: 45,color: Colors.green),
+                    ),
+
+                  ]
+              ),
+            ),
+          ),
+        ),
+      ),
+    ),
+  );
+}
