@@ -129,19 +129,19 @@ void main()
 
                     TextSpan(
                       text: "Styling text in Flutter\n",
-                      style: TextStyle(fontSize: 45,color: Colors.brown),
+                      style: TextStyle(fontSize: 30,color: Colors.brown),
                     ),
                     TextSpan(
                       text: "Styling text in Flutter\n",
-                      style: TextStyle(fontSize: 45,color: Colors.blue),
+                      style: TextStyle(fontSize: 30,color: Colors.blue),
                     ),
                     TextSpan(
                       text: "Styling text in Flutter\n",
-                      style: TextStyle(fontSize: 45,color: Colors.black38),
+                      style: TextStyle(fontSize: 30,color: Colors.black38),
                     ),
                     TextSpan(
                       text: "Styling text in Flutter\n\n\n",
-                      style: TextStyle(fontSize: 45,color: Colors.green),
+                      style: TextStyle(fontSize: 30,color: Colors.green),
                     ),
 
                   ]
